@@ -1,0 +1,1 @@
+`Visual Studio Code` has full JavaScript auto-completion support by parsing `*.d.ts`. Unreal.js provides `JavascriptContext.WriteDTS` function which generated `*.d.ts`, so with `Visual Studio Code` you may feel very comfortable. But sadly, current version of `Visual Studio Code` seems very unstable with large `*.d.ts`.
