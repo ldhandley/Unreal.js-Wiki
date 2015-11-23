@@ -31,3 +31,10 @@ class MyActor extends Actor {
 let MyUObject_C = require('uclass')()(global,MyActor)
 let actor = new MyActor(GWorld)
 ```
+
+You may create a class derived from a blueprint. 
+
+```js
+class MyBPChild extends Blueprint.Load('/Game/MyBP').GeneratedClass {
+}
+```
