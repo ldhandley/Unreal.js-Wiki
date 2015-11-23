@@ -23,6 +23,10 @@ class MyActor extends Actor {
     super.ReceiveBeginPlay()
     console.log("Hello")
   }
+
+  Client_PlayFX(effect/*string*/) /*NetMulticast*/ {
+    console.log("fire!")
+  }
 }
 let MyUObject_C = require('uclass')()(global,MyActor)
 let actor = new MyActor(GWorld)
