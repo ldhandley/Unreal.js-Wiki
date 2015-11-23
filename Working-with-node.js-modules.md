@@ -4,3 +4,4 @@ Only small amount of functions are provided including timer functions(`setTimeou
 
 But modules in node.js are designed to be shallow, so most of modules are just usable! :+1: 
 
+Perhaps you may even publish your game code into `npm` to share with others.
