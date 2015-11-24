@@ -15,3 +15,5 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Javascript proxy object]]
 - [[V8]]
 - [[Playing within editor]]
+- [[USTRUCT and UCLASS]]
+- [[UPROPERTY]]
