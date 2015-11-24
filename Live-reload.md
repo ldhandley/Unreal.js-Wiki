@@ -1,4 +1,4 @@
-Live reload is not a black magic. It just monitor files and trigger some action. You can limit live-reload scope by implementing your own logic. eg. `devjade.js` is monitoring jade files and refreshes only UI widgets.
+Live reload is not a black magic. It just monitors files and triggers some action. You can limit live-reload scope by implementing your own logic. eg. `devjade.js` is monitoring jade files and refreshes only UI widgets.
 
 main.js
 ```js
