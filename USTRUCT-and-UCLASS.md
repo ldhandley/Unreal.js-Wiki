@@ -1,7 +1,8 @@
 You can declare `USTRUCT` and `UCLASS` while your javascript is running.
 
 ```js
-class YourStructName /* **Struct**+StructFlag+StructFlag+... */ extends BaseStruct {
+// NOTE: Struct flag is *required* for 'USTRUCT'.
+class YourStructName /* Struct+StructFlag+StructFlag+... */ extends BaseStruct {
    properties() {
      property-declarations
    }
