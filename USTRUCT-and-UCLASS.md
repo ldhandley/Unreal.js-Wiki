@@ -18,9 +18,9 @@ class YourClassName /* ClassFlag+ClassFlag+... */ extends ParentClass {
    properties() {
      property-declarations
    }
-   method(arg/*PropertyFlag+...*/) /*FunctionFlag+...*/ {
+   YourUFunctionName(arg/*PropertyFlag+...*/) /*FunctionFlag+...*/ {
    }
-   pure_js_method(arg,...) {
+   YourPureJavascriptFunctionName(arg,...) {
    }
 }
 ```
