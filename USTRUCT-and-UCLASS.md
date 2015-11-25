@@ -11,8 +11,16 @@ class YourStructName /* Struct+StructFlag+StructFlag+... */ extends BaseStruct {
 
 ```js
 class YourClassName /* ClassFlag+ClassFlag+... */ extends ParentClass {
+   ctor() {
+     // initialization
+     // component setup
+   }
    properties() {
      property-declarations
+   }
+   method(arg/*PropertyFlag+...*/) /*FunctionFlag+...*/ {
+   }
+   pure_js_method(arg,...) {
    }
 }
 ```
