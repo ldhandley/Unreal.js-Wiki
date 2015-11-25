@@ -8,8 +8,15 @@ class MyTestActor extends Actor {
     this.series/*EditAnywhere+int[]*/;
   }
 
-  MyNiceSum(a/*int*/,b/*float*/,out/*Out+float*/) { 
+  MyNiceSum(a/*int*/,b/*float*/,$/*Return+float*/) { 
     return a+b 
+  }
+  
+  MyComplexReturn(a/*out+int*/,$/*ret+int*/) {
+    return {
+      $:1,
+      a:2
+    }
   }
 }
 ```
