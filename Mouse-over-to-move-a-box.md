@@ -1,7 +1,9 @@
 ```js
+let asset = StaticMesh.Load('/Game/Geometry/Meshes/1M_Cube.1M_Cube')
+
 class MyBox extends StaticMeshActor {
   ctor() {
-    this.StaticMeshComponent.SetStaticMesh(StaticMesh.Load('/Game/Geometry/Meshes/1M_Cube.1M_Cube'))
+    this.StaticMeshComponent.SetStaticMesh(asset)
     this.StaticMeshComponent.SetMobility('Movable')
   }
   ReceiveActorBeginCursorOver() {
