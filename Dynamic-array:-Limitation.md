@@ -14,13 +14,11 @@ Something.ArrayProperty.push(1); // fail;
 Something.ArrayProperty.pop(); // fail; same as above
 ```
 
-*CAUTION* Current implementation may crash in case of dealing with an array of `USTRUCT`. As a work-around you may serialize and deserialize your array into/from string by using `JSON.stringify`, `JSON.parse`.
+You cannot modify an existing element in a array.
 
-eg)
 ```js
-let prev = SomeObject.ArrayOfStruct
-prev.push({x:1,y:4})
-SomeObject.ArrayOfStruct = prev // May crash
-SomeObject.ArrayOfStruct = JSON.parse(JSON.stringify(prev)) // This will be fine
-// unless your struct holds references on UObject.
+Something.ArrayOfStruct = [{X:1},{Y:1},{Z:1}]
+assert(Something.ArrayOfStruct[0].X == 1) // pass
+Something.ArrayOfStruct[0].X = 2
+assert(Something.ArrayOfStruct[0].X == 2) // fail
 ```
