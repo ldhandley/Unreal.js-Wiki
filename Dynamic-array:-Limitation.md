@@ -22,5 +22,5 @@ let prev = SomeObject.ArrayOfStruct
 prev.push({x:1,y:4})
 SomeObject.ArrayOfStruct = prev // May crash
 SomeObject.ArrayOfStruct = JSON.parse(JSON.stringify(prev)) // This will be fine
-// unless your struct hold references on UObject.
+// unless your struct holds references on UObject.
 ```
