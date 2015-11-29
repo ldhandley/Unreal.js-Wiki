@@ -8,4 +8,4 @@ Once you have got typings, the only thing to have auto completion is adding a li
 /// <reference path="typings/ue.d.ts">/>
 ```
 
-By the way, current version of Visual Studio Codes seems to suffer from large *.d.ts. To reduce size of typings, you may disable help text generation.
+By the way, current version of Visual Studio Code seems to suffer from large *.d.ts. To reduce size of typings, you may disable help text generation.
