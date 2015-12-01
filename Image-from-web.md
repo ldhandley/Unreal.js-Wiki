@@ -1,3 +1,5 @@
+You can download an image from web and use it as a `UTexture2D`. UnrealEngine has a helper object doing this job, `AsyncTaskDownloadImage`.
+
 ```js
 const url = "http://www.blogcdn.com/massively.joystiq.com/media/2013/03/ncsoft.jpg"
 let job = AsyncTaskDownloadImage.DownloadImage(url)
