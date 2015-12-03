@@ -8,3 +8,10 @@ function kill() {
 }
 setTimeout(kill,1000)
 ```
+
+```js
+let transform = {Location:{X:1}}
+let actor = GWorld.BeginSpawningActor(StaticMeshActor,transform)
+actor.StaticMeshComponent.SetStaticMesh(StaticMesh.Load('/NiceMesh'))
+actor.FinishSpawningActor(transform)
+```
