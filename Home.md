@@ -24,6 +24,3 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Cooking]]
 - [[Autocompletion]]
 - [[Android]]
-- [[Image from web]]
-- [[Running from gist]]
-- [[Downloading from web]]
