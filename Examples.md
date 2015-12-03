@@ -1,1 +1,4 @@
 - [[Mouse-over to move a box]]
+- [[Image from web]]
+- [[Running from gist]]
+- [[Downloading from web]]
