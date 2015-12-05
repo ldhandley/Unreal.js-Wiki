@@ -2,6 +2,7 @@ _Documentation needed!_
 
 Currently `Unreal.js` does not have sufficient examples to follow. In this wiki, useful information including snippets would be shared.
 
+- [[Examples]]
 - [[Bootstrap]]
 - [[Creating an actor]]
 - [[Subclassing]]
@@ -19,7 +20,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[UPROPERTY]]
 - [[Dynamic array: Limitation]]
 - [[Creating a component]]
-- [[Examples]]
 - [[Huge typed-array]]
 - [[Cooking]]
 - [[Autocompletion]]
