@@ -1,7 +1,9 @@
 Shared memory
 
 ```js
-let shm = JavascriptSharedMemoryRegion.Create("TestSharedMemory",true/*create*/,true/*read*/,true/*write*/,4096/*bytes*/)
+let shm = JavascriptSharedMemoryRegion.Create(
+  "TestSharedMemory",
+  true/*create*/,true/*read*/,true/*write*/,4096/*bytes*/)
 let ab = memory.access(shm)
 let fa = new Float32Array(ab)
 ```
