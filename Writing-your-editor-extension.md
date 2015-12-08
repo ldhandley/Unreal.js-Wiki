@@ -23,3 +23,5 @@ Unreal.js executes automatically `editor.js` with editor enabled environment.
   }
 })(this)
 ```
+
+And your `JavascriptComponent` can be running within editor by checking `bActiveWithinEditor`.
