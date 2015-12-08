@@ -1,4 +1,4 @@
-Unreal.js executes automatically `editor.js` with editor enabled environment. 
+Unreal.js executes automatically `editor.js` with editor enabled environment, so you may put your own `editor.js` in `/Game/Content/Scripts`. 
 
 ```js
 (function (global) {
