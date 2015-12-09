@@ -1,28 +1,27 @@
-Unreal.js executes automatically `editor.js` with editor enabled environment, so you may put your own `editor.js` in `/Game/Content/Scripts`. 
+Unreal.js loads extensions automatically. Extension should be devrequired and have name with prefix 'extension'. Unreal.js searches `GameContent/Scripts` recursively to find extensions. 
 
 ```js
 (function (global) {
   "use strict"
-  function main() {
-    try {
-      console.log("Hello editor")
-      return function () {}
-    } catch (e) {
-      console.error(String(e))
-      return function () {}
+  module.exports = () => {
+    console.log("Hello my first editor extension")
+
+    class MyDelegates extends JavascriptGlobalDelegates {
+      OnObjectModified(obj) {
+        console.log("You just modified",obj.GetName())
+      }
     }
-  }
-  try {
-    module.exports = () => {
-      let cleanup = null
-      process.nextTick(() => cleanup = main())
-      return () => cleanup()
+    let MyDelegates_C = require('uclass')()(global,MyDelegates)
+    let instance = new MyDelegates_C()
+    instance.Bind('OnObjectModified')
+
+    return () => {
+      instance.UnbindAll()
+      console.log("Bye, editor")
     }
-  } catch(e) {
-    require('bootstrap')('editor')
   }
 })(this)
-```
+
 
 And your `JavascriptComponent` can be running within editor by checking `bActiveWithinEditor`.
 
