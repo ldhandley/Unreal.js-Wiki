@@ -25,3 +25,5 @@ Unreal.js executes automatically `editor.js` with editor enabled environment, so
 ```
 
 And your `JavascriptComponent` can be running within editor by checking `bActiveWithinEditor`.
+
+There can be several worlds so there is no `GWorld` exposed. Instead of accessing `GWorld`, you can retrieve by calling `Root.GetEngine().GetEditorWorld()`.
