@@ -1,3 +1,5 @@
+> [Wiki](Home) ▸ **Examples**
+
 - [[Mouse-over to move a box]]
 - [[Image from web]]
 - [[Running from gist]]
