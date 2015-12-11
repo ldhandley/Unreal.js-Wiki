@@ -14,7 +14,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Dynamic array: Limitation]]
 - [[Creating a component]]
 - [[Huge typed-array]]
-- [[Cooking]]
 - [[Autocompletion]]
 - [[Android]]
 - [[Playing within editor]]
