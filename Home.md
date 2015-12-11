@@ -11,7 +11,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Delegates]]
 - [[Visual Studio Code]]
 - [[Writing your own extension]]
-- [[Jade, CSS, angular.js]]
 - [[Javascript proxy object]]
 - [[V8]]
 - [[Dynamic array: Limitation]]
@@ -22,4 +21,5 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Android]]
 - [[Interprocess]]
 - [[Playing within editor]]
+- [[Modules]]
 - [[Advanced topics]]
