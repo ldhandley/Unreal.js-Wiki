@@ -11,8 +11,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Delegates]]
 - [[Visual Studio Code]]
 - [[Writing your own extension]]
-- [[Javascript proxy object]]
-- [[V8]]
 - [[Dynamic array: Limitation]]
 - [[Creating a component]]
 - [[Huge typed-array]]
