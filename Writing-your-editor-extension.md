@@ -1,5 +1,3 @@
-- [[Playing within editor]]
-
 Unreal.js loads extensions automatically. Extension should be devrequired and have name with prefix 'extension'. Unreal.js searches `GameContent/Scripts` recursively to find extensions. 
 
 ```js
