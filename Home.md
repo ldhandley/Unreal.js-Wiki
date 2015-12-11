@@ -9,7 +9,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Live reload]]
 - [[Javascript Console]]
 - [[Delegates]]
-- [[Working with node.js modules]]
 - [[Visual Studio Code]]
 - [[Writing your own extension]]
 - [[Jade, CSS, angular.js]]
@@ -23,3 +22,4 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Android]]
 - [[Interprocess]]
 - [[Playing within editor]]
+- [[Advanced topics]]
