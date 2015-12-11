@@ -1,3 +1,5 @@
 - [[Javascript proxy object]]
 - [[V8]]
 - [[Cooking]]
+- [[Dynamic array: Limitation]]
+- [[Huge typed-array]]
