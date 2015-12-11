@@ -15,7 +15,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Jade, CSS, angular.js]]
 - [[Javascript proxy object]]
 - [[V8]]
-- [[Playing within editor]]
 - [[Dynamic array: Limitation]]
 - [[Creating a component]]
 - [[Huge typed-array]]
