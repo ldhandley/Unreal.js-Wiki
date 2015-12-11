@@ -9,7 +9,6 @@ Currently `Unreal.js` does not have sufficient examples to follow. In this wiki,
 - [[Subclassing]]
 - [[Delegates]]
 - [[Writing your own extension]]
-- [[Autocompletion]]
 - [[Android]]
 - [[Playing within editor]]
 - [[Modules]]
