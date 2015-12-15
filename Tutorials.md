@@ -5,3 +5,4 @@
 - [[Creating an component]]
 - [[Writing your own extension]]
 - [[Playing within editor]]
+- [[Finding an object]]
