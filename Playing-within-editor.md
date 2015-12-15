@@ -2,7 +2,7 @@
 
 To play with editor you must have an access to `editor world`.
 
-### Get the World
+#### Get the World
 ```js
 let editorWorld = Root.GetEngine().GetEditorWorld()
 ```
