@@ -15,4 +15,5 @@ actor.RootComponent.SetWorldLocation({Z:123})
 actor.StaticMeshComponent.StaticMesh = cubeMesh
 ```
 
-
+### Warning
+Editor context is not being cleaned up before map load. So every references to actors belonging to previous map should be cleaned up before map load triggered.
