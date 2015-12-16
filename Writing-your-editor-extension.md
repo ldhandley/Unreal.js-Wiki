@@ -21,7 +21,7 @@ Unreal.js loads extensions automatically. Extension should be devrequired and ha
     }
   }
 })(this)
-
+```
 
 And your `JavascriptComponent` can be running within editor by checking `bActiveWithinEditor`.
 
