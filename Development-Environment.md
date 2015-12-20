@@ -2,3 +2,4 @@
 - [[Visual Studio Code]]
 - [[Live reload]]
 - [[Javascript Console]]
+- [[Debugging]]
