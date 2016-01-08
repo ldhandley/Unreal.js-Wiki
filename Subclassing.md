@@ -1,6 +1,7 @@
 - [[USTRUCT and UCLASS]]
 - [[UPROPERTY]]
 - [[Creating a component]]
+- [[Creating a widget]]
 
 You can subclass any UClass like creating a blueprint in the editor. Just like blueprints, given class is transformed into `JavascriptGeneratedClass` by `require('class')()(global,SourceClass)`. 
 
