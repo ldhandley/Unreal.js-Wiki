@@ -26,7 +26,7 @@ function bsp() {
         }
         return context
     } 
-    
+        
     function cube(x,y,z) {
         return brushbuilder(CubeBuilder).set(bb => {
             bb.X = x
@@ -35,12 +35,46 @@ function bsp() {
         })              
     }       
     
-    function test() {
-        const size = 300
-        const padding = 10
-        const hole = 250; 
+    function pointlight(P, radius = 160) {
+        let t = {
+            Translation : P
+        }
+        let light = world.BeginSpawningActorFromClass(PointLight, t, true)
+        light.LightComponent.AttenuationRadius = radius
+        light.FinishSpawningActor(t)
+    }
+    
+    function selectOne(obj) {
+        engine.GetSelectedObjects().DeselectAll()
+        engine.GetSelectedObjects().Select(obj)
+    }
+    
+    function material(path) {
+        let mtrl = Material.Load(path)
         
-        (global.bspActors || []).forEach(actor => {
+        function create() {
+            let mi = world.CreateDynamicMaterialInstance(mtrl)
+            let context = {
+                vector: (param,value) => {
+                    mi.SetVectorParameterValue(param,value)
+                    return context        
+                },
+                selectOne: _ => {
+                    selectOne(mi)
+                    return context
+                }
+            }
+            return context
+        }
+        
+        return {
+            spawn: create,
+            selectOne: _ => selectOne(mtrl)
+        }            
+    }
+    
+    function transaction(name,fn) {
+        (global[name] || []).forEach(actor => {
             try {
                 if (actor.IsValid()) {
                     world.EditorDestroyActor(actor)   
@@ -48,34 +82,40 @@ function bsp() {
             } catch (e)
             {}                
         })
-            
-        let mtrl = Material.Load('/Game/Color.Color')
         
         let _ = require('lodash')
         let prev_actors = world.GetAllActorsOfClass(Actor).OutActors
-        _.range(0,10).forEach(i => {
-            let mi = world.CreateDynamicMaterialInstance(mtrl)
-            let color = {R:Math.random(),G:Math.random(),G:Math.random(),A:1}
-            mi.SetVectorParameterValue('color', color)
-            engine.GetSelectedObjects().DeselectAll()
-            engine.GetSelectedObjects().Select(mi)
+            
+        fn()
+        
+        let new_actors = world.GetAllActorsOfClass(Actor).OutActors
+        global[name] = _.difference(new_actors,prev_actors)
+        engine.RedrawAllViewports()
+    }
+    
+    function test() {
+        const size = 300
+        const padding = 10
+        const hole = 250;
+        
+        let mtrl = material('/Game/Color.Color')
+        
+        let _ = require('lodash')
+        _.range(0,10).forEach(i => {                
+            mtrl.spawn()
+                .vector('color',{
+                    R:Math.random(),G:Math.random(),G:Math.random(),
+                    A:1})
+                .selectOne()
         
             let P = {X:i * (size+padding),Y:i * padding,Z:i * padding}
             cube(size,size,size).moveto(P).add()
             cube(size,hole,hole).moveto(P).subtract()
             
-            let t = {
-                Translation : P
-            }
-            let light = world.BeginSpawningActorFromClass(PointLight, t, true)
-            light.LightComponent.AttenuationRadius = 160
-            light.FinishSpawningActor(t)
+            pointlight(P,80)
         })     
-        let new_actors = world.GetAllActorsOfClass(Actor).OutActors
-        global.bspActors = _.difference(new_actors,prev_actors)
-        engine.RedrawAllViewports()
     }
             
-    test()   
-}
+    transaction('bspActors',test)   
+}    
 ```
