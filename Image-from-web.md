@@ -21,7 +21,7 @@ class MyHUD extends HUD {
 ```
 
 ## Using promises
-```
+```js
 function webimageCache() {
     let cached = {}
     let pending = {}
