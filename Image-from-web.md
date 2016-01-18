@@ -46,7 +46,7 @@ function webimageCache() {
             }
             job.OnFail = (reason) => {                    
                 delete pending[url]
-                Reject(texture)
+                Reject(reason)
             }
             return p
         }
