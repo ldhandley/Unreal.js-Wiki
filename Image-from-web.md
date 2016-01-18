@@ -19,3 +19,38 @@ class MyHUD extends HUD {
   }
 }
 ```
+
+## Using promises
+```
+function webimageCache() {
+    let cached = {}
+    let pending = {}
+    function webimage(url) {
+        if (cached[url]) {
+            return Promise.resolve(cached[url])
+        } else if (pending[url]) {
+            return pending[url]
+        } else {
+            let Resolve, Reject                    
+            let p = new Promise((resolve,reject) => {
+                Resolve = resolve
+                Reject = reject
+            })
+            pending[url] = p
+            let job = AsyncTaskDownloadImage.DownloadImage(url)
+            let texture = null                
+            job.OnSuccess = (texture) => {
+                cached[url] = texture
+                delete pending[url]
+                Resolve(texture)            
+            }
+            job.OnFail = (reason) => {                    
+                delete pending[url]
+                Reject(texture)
+            }
+            return p
+        }
+    }
+    return webimage
+}
+```
