@@ -5,6 +5,6 @@ const url = 'http://somenice-url.com'
 request('GET',url,{res:'string'}).then(result => {
     let $ = cheerio.load(result)            
     let text = $('div').text()
-    page.find('page').SetText(text)
+    console.log('just grabbed text from web',text)
 }) 
 ```
