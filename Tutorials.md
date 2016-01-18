@@ -7,3 +7,4 @@
 - [[Playing within editor]]
 - [[Finding an object]]
 - [[Accessing basic types]]
+- [[UMG animation]]
