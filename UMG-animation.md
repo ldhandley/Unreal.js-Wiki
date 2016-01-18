@@ -1,14 +1,12 @@
 ```js
 let UMG = require('UMG')
+let instantiator = require('instantiator')
+let animationDriver = require('animation-driver')
+
 let design = UMG.span({},				
     UMG(Button,{id:'test'},UMG.text({id:'text',Font:{Size:150}},"Hello"))									
 )
-
-let instantiator = require('instantiator')
 let page = instantiator(design)
-
-let animationDriver = require('animation-driver')
-
 let ad = animationDriver()
 
 ad.apply(page.find('test'),{duration:1,loop:1},{
