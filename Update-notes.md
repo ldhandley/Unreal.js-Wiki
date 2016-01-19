@@ -10,6 +10,6 @@
 
 - Animation driver module added. 
 ```js
-  let ad = require('animation-driver'); 
+  let ad = require('animation-driver')
   ad.apply(someWidget,{duration:0.25},{Color:t => ({R:t,A:1})})
 ```
