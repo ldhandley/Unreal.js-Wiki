@@ -5,7 +5,7 @@ class TestWidget extends JavascriptWidget {
         let r = 300
         let t = (new Date() | 0) / 1000
         let end = {X:Math.cos(t)*r,Y:Math.sin(t)*r}
-        WidgetBlueprintLibrary.DrawLine(context,start,end,{R:1,A:1},true)                    
+        context.DrawLine(start,end,{R:1,A:1},true)                    
     }
 }
 let TestWidget_C = require('uclass')()(global,TestWidget)
