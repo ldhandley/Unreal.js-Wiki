@@ -8,7 +8,7 @@
 
 2016-01-18
 
-- Animation driver module added. 
+- Animation driver module added for [[UMG animation]]
 ```js
   let ad = require('animation-driver')
   ad.apply(someWidget,{duration:0.25},{Color:t => ({R:t,A:1})})
