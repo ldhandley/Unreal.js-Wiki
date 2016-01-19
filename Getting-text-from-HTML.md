@@ -1,3 +1,5 @@
+`cheerio` provides jQuery like api to non browser environment including **Unreal.js**! 
+
 ```js
 let request = require('request')
 let cheerio = require('cheerio')
