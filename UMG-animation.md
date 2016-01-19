@@ -1,3 +1,9 @@
+TL;DR
+```js
+let ad = require('animation-driver')
+ad.apply(someWidget,{duration:0.25},{Color:t => ({R:t,A:1})})
+```
+
 ```js
 let UMG = require('UMG')
 let instantiator = require('instantiator')
