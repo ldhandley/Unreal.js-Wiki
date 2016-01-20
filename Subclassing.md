@@ -43,5 +43,3 @@ You may create a class derived from a blueprint.
 class MyBPChild extends Blueprint.Load('/Game/MyBP').GeneratedClass {
 }
 ```
-
-*CAUTION* Inheritance from Javascript class is not supported yet. 
