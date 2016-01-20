@@ -16,7 +16,7 @@ class MyUObject extends UObject {
   }
 }
 let MyUObject_C = require('uclass')()(global,MyUObject)
-let instance = new MyUObject()
+let instance = new MyUObject_C()
 ```
 
 ```js
@@ -33,8 +33,8 @@ class MyActor extends Actor {
     console.log("fire!")
   }
 }
-let MyUObject_C = require('uclass')()(global,MyActor)
-let actor = new MyActor(GWorld)
+let MyActor_C= require('uclass')()(global,MyActor)
+let actor = new MyActor_C(GWorld)
 ```
 
 You may create a class derived from a blueprint. 
