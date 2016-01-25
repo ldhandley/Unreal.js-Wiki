@@ -1,3 +1,12 @@
+2016-01-25
+
+- Animation driver updates
+ * `animdriver.apply(,{warm:true},...)` for warm start, which calls apply(t=0) immediately.
+ * `animdriver.apply(,{$access:(target,key) => return target.yourOwnSetFunction.bind(target,key)},...)`
+   * This update enables animation driver support non UMG targets.
+- `require` bug fix.
+ * `package.json` can point entry javascript file without `.js` extension.
+
 2016-01-20 
 
 - BlueprintLibraryFunction for UStruct is now accessible as a method of corresponding UStruct itself and its typing(*.d.ts) is auto-generated!
