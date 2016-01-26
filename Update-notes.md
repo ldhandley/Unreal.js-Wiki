@@ -1,3 +1,9 @@
+2016-01-26
+
+- $execEditor added
+ * `FEditorScriptExecutionGuard` equivalent in JS.
+   - `$execEditor(_ => your_secret_editor_code_goes_here)`
+
 2016-01-25
 
 - Animation driver updates
