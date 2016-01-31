@@ -10,8 +10,12 @@ setTimeout(kill,1000)
 ```
 
 ```js
-let transform = {Translation:{X:1}}
-let actor = GWorld.BeginSpawningActor(StaticMeshActor,transform)
-actor.StaticMeshComponent.SetStaticMesh(StaticMesh.Load('/NiceMesh'))
-actor.FinishSpawningActor(transform)
+const uclass = require('uclass')().bind(this,global)
+class MySMA extends StaticMeshActor {
+  ctor() {
+    this.StaticMeshComponent.SetStaticMesh(StaticMesh.Load('/Engine/BasicShapes/Cube.Cube'))
+  }
+}      
+let MySMA_C = uclass(MySMA) 
+new MySMA_C(GWorld,{Z:100})
 ```
