@@ -1,3 +1,8 @@
+2016-02-05
+
+- WebSocket added.
+- `memory.exec(array-buffer, transaction-fn)` added. Old `memory.bind` and `memory.unbind` are deprecated now for cleaner api.
+
 2016-01-26
 
 - $execEditor added
