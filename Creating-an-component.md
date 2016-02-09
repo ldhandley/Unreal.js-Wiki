@@ -18,6 +18,10 @@ class MyComponent /*EditInlineNew*/ extends ActorComponent {
 let MyComponent_C = compile(MyComponent)
 
 class MyActor extends Actor {
+  // pre-ctor; you can switch subobject to another class defined in super class.
+  prector() {
+    MyMovementComponent_C.SetDefaultSubobjectClass("CharMoveComp")
+  }
   ctor() {
     this.MyComponent = MyComponent_C.CreateDefaultSubobject("MyComponent")
   }
