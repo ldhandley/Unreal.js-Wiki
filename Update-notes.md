@@ -1,6 +1,6 @@
 2016-02-10
 
-- FObjectInitializer::SetDefaultSubobjectClass reflected. You can access it within your `prector`. Please check out an example in `helloCharacter.js`.
+- FObjectInitializer::SetDefaultSubobjectClass reflected. You can access it within your `prector`. Please check out an example: `helloCharacter.js`.
 
 2016-02-05
 
