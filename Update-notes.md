@@ -1,3 +1,7 @@
+2016-02-13
+
+- AutoReimport is automatically suppressed not to try to import *.json under Scripts/ folder.
+
 2016-02-10
 
 - FObjectInitializer::SetDefaultSubobjectClass reflected. You can access it within your `prector`. Please check out an example: `helloCharacter.js`.
