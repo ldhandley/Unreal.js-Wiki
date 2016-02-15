@@ -1,3 +1,7 @@
+2016-02-16
+
+- BlueprintLibrary functions with alias for ScriptStructs are now supported. For an example, `KeyEvent.IsAltDown` is now available instead of `KeyEvent.KeyEvent_IsAltDown`.
+
 2016-02-13
 
 - AutoReimport is automatically suppressed not to try to import *.json under Scripts/ folder.
