@@ -1,6 +1,7 @@
-2016-02-20
+2016-02-21
 
 - JavascriptProfile added for profiling V8. [[Profiling V8]]
+- JavascriptSettings(config) added. V8 flags are configurable!
 
 2016-02-16
 
