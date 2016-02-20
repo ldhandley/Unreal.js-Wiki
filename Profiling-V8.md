@@ -1,3 +1,6 @@
+* For serious V8 profiling, add '--prof' to V8 flags in 'Editor - Project Settings - Plugins - UnrealJS - V8 Flags' and restart engine. After shutting down JavascriptIsolate, 'isolate-*-v8.log' will be dumped in 'Engine/Binaries/...' folder.
+* Visit http://v8.googlecode.com/svn/trunk/tools/tick-processor.html, and feed '*-v8.log' to analyze.
+
 ```js
 const sessionName = 'SessionName'
 JavascriptProfile.Start(sessionName)
