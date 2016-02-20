@@ -1,3 +1,7 @@
+2016-02-20
+
+- JavascriptProfile added for profiling V8. [[Profiling V8]]
+
 2016-02-16
 
 - BlueprintLibrary functions with alias for ScriptStructs are now supported. For an example, `KeyEvent.IsAltDown` is now available instead of `KeyEvent.KeyEvent_IsAltDown`.
