@@ -1,6 +1,9 @@
 ```js
 const sessionName = 'SessionName'
 JavascriptProfile.Start(sessionName)
+
+<<< HEAVY WORK LOAD >>>
+
 let profile = JavascriptProfile.Stop(sessionName)
 
 profile.GetTopRootNode().GetFunctionName()
