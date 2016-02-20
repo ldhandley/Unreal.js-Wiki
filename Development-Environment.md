@@ -3,4 +3,4 @@
 - [[Live reload]]
 - [[Javascript Console]]
 - [[Debugging]]
-- [[Annoying automatic reimport for package.json]]
+- [[Profiling V8]]
