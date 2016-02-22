@@ -9,6 +9,7 @@ function kill() {
 setTimeout(kill,1000)
 ```
 
+Declare your own `AActor`
 ```js
 const uclass = require('uclass')().bind(this,global)
 class MySMA extends StaticMeshActor {
