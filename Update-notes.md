@@ -1,3 +1,7 @@
+2016-02-29
+
+- No more `git-lfs`.
+
 2016-02-21
 
 - JavascriptProfile added for profiling V8. [[Profiling V8]]
