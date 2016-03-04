@@ -1,3 +1,7 @@
+2016-03-05
+
+- New casting operators which behaves like Unreal's `Cast<>`. `Vector({X:1})` gives valid vector struct instance. `Pawn(GWorld)` gives `undefined`. 
+
 2016-02-29
 
 - No more `git-lfs`.
