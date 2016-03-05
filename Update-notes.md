@@ -5,6 +5,41 @@
 Vector({X:1}).Lerp(Vector({Y:1}),0.5).ToLinearColor()
 ```
 
+- UMG: `JavascriptMultiLineEditableTextBox` added.
+```js
+UMG(JavascriptMultiLineEditableTextBox, {
+    'slot.size.size-rule':'Fill',
+    AlwaysShowScrollbars:true, 
+    IsReadOnly:true,
+    $link:elem =>{
+        let layout
+        let style = TextBlockStyle({
+            Font:{Size:20},
+            ColorAndOpacity:{
+                SpecifiedColor:{R:1,G:1,B:1,A:1} 
+            }
+        })
+        elem.SetTextDelegate = (text,_layout) => {
+            layout = _layout
+            _.range(100).forEach(x => {
+                layout.AddLine("TESTworld " + x,style)
+            })                        
+        }
+        let timer = null
+        elem.OnVScrollBarUserScrolled = offset => {
+            if (timer) {
+                clearTimeout(timer)
+                timer = null
+            }
+            timer = setTimeout(_ => {
+                timer = null
+                elem.ScrollTo(99)
+            },500)
+        }
+    }
+})
+```
+
 2016-02-29
 
 - No more `git-lfs`.
