@@ -19,10 +19,23 @@ UMG(JavascriptMultiLineEditableTextBox, {
                 SpecifiedColor:{R:1,G:1,B:1,A:1} 
             }
         })
+        let style2 = TextBlockStyle({
+            Font:{Size:30},
+            ColorAndOpacity:{
+                SpecifiedColor:{R:1,G:0,B:1,A:1} 
+            }
+        })
         elem.SetTextDelegate = (text,_layout) => {
             layout = _layout
             _.range(100).forEach(x => {
-                layout.AddLine("TESTworld " + x,style)
+                let msg = "TESTworld " + x
+                let model = new JavascriptTextModel()
+                model.SetString(msg)
+                
+                layout.AddLine(model,[
+                    model.CreateRun(style,0,4),
+                    model.CreateRun(style2,4,msg.length)
+                    ])
             })                        
         }
         let timer = null
