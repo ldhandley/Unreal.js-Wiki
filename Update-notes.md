@@ -1,7 +1,8 @@
 2016-03-05
 
 - New casting operators which behaves like Unreal's `Cast<>`. `Vector({X:1})` gives valid vector struct instance. `Pawn(GWorld)` gives `undefined`. 
-```Vector({X:1}).Lerp(Vector({Y:1}),0.5).ToLinearColor()
+```js
+Vector({X:1}).Lerp(Vector({Y:1}),0.5).ToLinearColor()
 ```
 
 2016-02-29
