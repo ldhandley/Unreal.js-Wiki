@@ -10,4 +10,6 @@ class MyChildActor extends Blueprint.Load('/SomeNice').GeneratedClass {}
 After
 ```js
 class MyChildActor extends Root.ResolveClass('blueprint') {}
+
+Non native project which doesn't have a single c++ class cannot be baked with game plugins. So if you installed Unreal.js as a game plugin, you should switch your project into c++ project by adding a dummy native class.
 ```
