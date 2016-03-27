@@ -1,11 +1,11 @@
 2016-03-27
 
 - Added a new sample 'helloGame', which demonstrates making a multiplayer game with Unreal.js.
-- Video tutorial(by @keyle) added. (https://www.youtube.com/watch?v=XxPSLjBg7DU)
+- Video tutorial(by [@keyle](https://twitter.com/keyle)) added. [Link to video](https://www.youtube.com/watch?v=XxPSLjBg7DU)
 
 2016-03-12
 
-- Added a new sample 'helloSnippet'. (https://youtu.be/Kl4LVaiHqGw) (https://github.com/ncsoft/Unreal.js/archive/snippet-editor.zip)
+- Added a new sample 'helloSnippet'. [Link to video](https://youtu.be/Kl4LVaiHqGw) (https://github.com/ncsoft/Unreal.js/archive/snippet-editor.zip)
 
 2016-03-05
 
