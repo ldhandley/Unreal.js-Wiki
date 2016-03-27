@@ -1,6 +1,7 @@
 2016-03-27
 
 - Added a new sample 'helloGame', which demonstrates making a multiplayer game with Unreal.js.
+- Video tutorial(by @keyle) added. (https://www.youtube.com/watch?v=XxPSLjBg7DU)
 
 2016-03-12
 
