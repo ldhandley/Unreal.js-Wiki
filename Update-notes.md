@@ -5,7 +5,7 @@
 
 2016-03-12
 
-- Added a new sample 'helloSnippet'. [Link to video](https://youtu.be/Kl4LVaiHqGw) (https://github.com/ncsoft/Unreal.js/archive/snippet-editor.zip)
+- Added a new sample 'helloSnippet'. [Link to video](https://youtu.be/Kl4LVaiHqGw) [Link to binary](https://github.com/ncsoft/Unreal.js/archive/snippet-editor.zip)
 
 2016-03-05
 
