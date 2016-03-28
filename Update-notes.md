@@ -1,3 +1,8 @@
+2016-03-28
+
+- Prebuilt binaries for 4.11 preview 8.
+- Examples updated.
+
 2016-03-27
 
 - Added a new sample 'helloGame', which demonstrates making a multiplayer game with Unreal.js.
