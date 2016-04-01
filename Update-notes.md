@@ -1,3 +1,7 @@
+2016-04-01
+
+- Prebuilt binaries for 4.11.0.
+
 2016-03-28
 
 - Prebuilt binaries for 4.11 preview 8.
