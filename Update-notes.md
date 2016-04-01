@@ -1,7 +1,7 @@
 2016-04-01
 
 - Prebuilt binaries for 4.11.0.
-- Video tutorial(by [@youdaman](https://twitter.com/Youdaman) added. [Link to video](https://www.youtube.com/watch?v=QDEy71oiHOg)
+- Video tutorial(by [@youdaman](https://twitter.com/Youdaman)) added. [Link to video](https://www.youtube.com/watch?v=QDEy71oiHOg)
 
 2016-03-28
 
