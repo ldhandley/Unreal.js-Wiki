@@ -2,6 +2,7 @@ Unreal.js loads extensions automatically. Extension should be devrequired and ha
 
 ```js
 "use strict"
+
 module.exports = () => {
   console.log("Hello my first editor extension")
   class MyDelegates extends JavascriptGlobalDelegates {
