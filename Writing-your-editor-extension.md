@@ -1,26 +1,23 @@
 Unreal.js loads extensions automatically. Extension should be devrequired and have name with prefix 'extension'. Unreal.js searches `GameContent/Scripts` recursively to find extensions. 
 
 ```js
-(function (global) {
-  "use strict"
-  module.exports = () => {
-    console.log("Hello my first editor extension")
-
-    class MyDelegates extends JavascriptGlobalDelegates {
-      OnObjectModified(obj) {
-        console.log("You just modified",obj.GetName())
-      }
-    }
-    let MyDelegates_C = require('uclass')()(global,MyDelegates)
-    let instance = new MyDelegates_C()
-    instance.Bind('OnObjectModified')
-
-    return () => {
-      instance.UnbindAll()
-      console.log("Bye, editor")
+"use strict"
+module.exports = () => {
+  console.log("Hello my first editor extension")
+  class MyDelegates extends JavascriptGlobalDelegates {
+    OnObjectModified(obj) {
+      console.log("You just modified",obj.GetName())
     }
   }
-})(this)
+  let MyDelegates_C = require('uclass')()(global,MyDelegates)
+  let instance = new MyDelegates_C()
+  instance.Bind('OnObjectModified')
+
+  return () => {
+    instance.UnbindAll()
+    console.log("Bye, editor")
+  }
+}
 ```
 
 And your `JavascriptComponent` can be running within editor by checking `bActiveWithinEditor`.
