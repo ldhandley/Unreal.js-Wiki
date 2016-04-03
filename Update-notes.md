@@ -1,3 +1,7 @@
+2016-04-03
+
+- Main plugin has been split as a [submodule](https://github.com/ncsoft/Unreal.js-core)
+
 2016-04-01
 
 - Prebuilt binaries for 4.11.0.
