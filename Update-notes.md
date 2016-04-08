@@ -1,3 +1,7 @@
+2016-04-08
+
+- Editor extension example updated. (No more jade)
+
 2016-04-03
 
 - Main plugin has been split as a [submodule](https://github.com/ncsoft/Unreal.js-core)
