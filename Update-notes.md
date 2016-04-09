@@ -1,3 +1,7 @@
+2016-04-09
+
+- [json2u](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/json2u.js) generates corresponding USTRUCT/UCLASS from json-schema, you can edit your favorite json object with PropertyEditor.
+
 2016-04-08
 
 - Editor extension example updated. (No more jade)
