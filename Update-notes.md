@@ -1,3 +1,8 @@
+2016-04-10
+
+- JavascriptEditorViewport provides basic editor viewport functionality to JS env.
+- Fixed crashes, GC bugs related to Editor tab.
+
 2016-04-09
 
 - [json2u](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/json2u.js) generates corresponding USTRUCT/UCLASS from json-schema, you can edit your favorite json object with PropertyEditor.
