@@ -3,9 +3,9 @@ If you have to pass 32k uint8 as input, `TArray` may be too slow. With `ArrayBuf
 ```js
 let ab = new ArrayBuffer(32*1024); // 32K bytes buffer
 let u8 = new Uint8Array(ab); // typed array
-memory.bind(ab);
-GWorld.MySuperMemoryFunction();
-memory.unbind(ab);
+memory.exec(ab, function(){
+  GWorld.MySuperMemoryFunction();
+});
 ```
 
 Bound array buffer can be accessed with `FArrayBufferAccessor`. After handshaking with javascript, native handles huge amount of memory safely.
