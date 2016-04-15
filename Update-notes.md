@@ -1,3 +1,7 @@
+2016-04-16
+
+- Editor tab improvements (Mostly about GC, crashes)
+
 2016-04-10
 
 - JavascriptEditorViewport provides basic editor viewport functionality to JS env.
