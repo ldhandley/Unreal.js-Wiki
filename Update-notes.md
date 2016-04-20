@@ -1,3 +1,8 @@
+2016-04-21
+
+- Update build for 4.11.2
+- Features to build editor extension added.
+
 2016-04-16
 
 - Editor tab improvements (Mostly about GC, crashes)
