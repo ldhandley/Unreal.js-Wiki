@@ -1,3 +1,7 @@
+2016-04-22
+
+- JavascriptTreeView retains GC-ref for generated UWidgets not to cause a crash. (JavascriptListView isn't fixed yet)
+
 2016-04-21
 
 - Update build for 4.11.2
