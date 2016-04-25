@@ -17,8 +17,11 @@
             "remoteRoot": null
         }
 
-5. Let your JavascriptContext to be set as debug context (in UE Javascript console)
- - `Context.SetAsDebugContext()`
+5. Let your JavascriptContext to be set as debug context (in UE Javascript console) with `Context.SetAsDebugContext()`
+ - Warning: you should set the correct javascript console.
+ - To debug a game: 
+ - Start your game (Play button) 
+ - _Shift + F1_ to have access to the mouse, type `Context.SetAsDebugContext()` in the correct javascript console
 6. Start your debug session with F5 or the play button.
 
 That's all!
