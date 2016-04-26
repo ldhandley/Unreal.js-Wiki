@@ -15,7 +15,7 @@ actor.RootComponent.SetWorldLocation({Z:123})
 actor.StaticMeshComponent.StaticMesh = cubeMesh
 ```
 
-### Function not being called
+### Editor script execution guard
 ```js
 $execEditor( () => {
   // your code goes here to prevent exec-blocking
