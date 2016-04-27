@@ -15,11 +15,20 @@ actor.RootComponent.SetWorldLocation({Z:123})
 actor.StaticMeshComponent.StaticMesh = cubeMesh
 ```
 
-### Editor script execution guard
+#### Editor script execution guard
 ```js
 $execEditor( () => {
   // your code goes here to prevent exec-blocking
 } )
+```
+
+#### Transaction for undo/redo
+```js
+$execTransaction( "Important operation!", () => {
+  yourPreciousTarget.ModifyObject(true)
+  yourPreciousTarget.yourPreciousProperty = "ALTERED"
+  yourPreciousTarget.yourPreciousMethod()
+})
 ```
 
 ### Warning
