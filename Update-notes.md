@@ -1,6 +1,6 @@
 2016-04-26
 
-- EdMode can be extendible with Javascript! 
+- EdMode can be extended with Javascript! 
 
 2016-04-22
 
