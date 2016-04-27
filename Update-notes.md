@@ -1,3 +1,7 @@
+2016-04-26
+
+- EdMode can be extendible with Javascript! 
+
 2016-04-22
 
 - JavascriptTreeView retains GC-ref for generated UWidgets not to cause a crash. (JavascriptListView isn't fixed yet)
