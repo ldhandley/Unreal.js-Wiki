@@ -1,3 +1,7 @@
+2016-04-28
+
+- Binary updated
+
 2016-04-26
 
 - EdMode can be extended with Javascript! 
