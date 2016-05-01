@@ -1,6 +1,6 @@
 2016-05-01
 
-- Now supports mac.
+- Now supports mac. (V8 4.8.271)
 - `FJavascriptFunction` added which allows callback js func from C++/BP. This is needed for scoped struct instance. (eg. FMultiBoxBuilder, ...)
 
 2016-04-28
