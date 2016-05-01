@@ -1,3 +1,7 @@
+2016-05-01
+
+- Now supports mac.
+
 2016-04-28
 
 - Binary updated
