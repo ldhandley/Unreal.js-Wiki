@@ -1,6 +1,6 @@
 To create a custom [editor mode](https://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Modes/index.html):
 
-```
+```js
 const StyleSetName = 'JSEdmode'
 const UMG = require('UMG')
 const instantiator = require('instantiator')
