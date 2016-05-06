@@ -1,3 +1,7 @@
+2016-05-06
+
+- Fix for V8 5.0: @HACK for Weird JS inheritance. instance of inherited class has invalid __proto__.
+
 2016-05-01
 
 - Now supports mac. (V8 4.8.271)
