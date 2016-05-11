@@ -1,3 +1,8 @@
+2016-05-11
+
+- Decorators(instanced, editinline, ...) for array inner property.
+- inheritance from JS class(experimental).
+
 2016-05-06
 
 - Fix for V8 5.0: @HACK for Weird JS inheritance. instance of inherited class has invalid `__proto__`. This fixes #72(Mac build).
