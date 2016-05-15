@@ -1,3 +1,9 @@
+2016-05-15
+
+- Upgrading V8 to 5.1.300
+ * https://github.com/ncsoft/Unreal.js-core/tree/V8-5.1.300
+ * https://github.com/ncsoft/Unreal.js-core/releases/tag/v8-5.1.300-win64
+
 2016-05-11
 
 - Decorators(instanced, editinline, ...) for array inner property.
