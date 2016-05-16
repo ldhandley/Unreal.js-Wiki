@@ -1,3 +1,7 @@
+2016-05-17
+
+- Fixed a bug which was introduced during support for JS class inheritance.
+
 2016-05-15
 
 - Upgrading V8 to 5.1.300
