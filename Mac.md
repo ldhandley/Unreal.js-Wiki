@@ -1,5 +1,6 @@
 ## For a fresh start
-1. brew install v8
+1. Install v8
+```brew install v8```
 1. Create a new C++ project
 1. Open terminal
 ```
