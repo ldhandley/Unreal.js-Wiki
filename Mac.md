@@ -5,8 +5,10 @@
 # install v8
 brew install v8
 cd ~/Documents/Unreal\ Projects/<your project>
+
 # download plugin
 git clone https://github.com/ncsoft/Unreal.js-core Plugins/UnrealJS
+
 # build and run!
 open <your project>.uproject
 ```
