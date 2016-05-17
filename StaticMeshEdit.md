@@ -1,3 +1,5 @@
+* Requires WITH_EDITOR
+
 ```js
 let mesh = StaticMesh.Load('/Game/Assets/Meshes/SM_Arch.SM_Arch')
 let raw = mesh.LoadRawMesh(0).OutMesh
