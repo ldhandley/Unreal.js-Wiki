@@ -2,6 +2,7 @@
 
 - Fixed a bug which was introduced during support for JS class inheritance.
 - [[StaticMeshEdit]]: Added support for StaticMesh creation.
+- [[Huge array fast access]]: Typed array access added.
 
 2016-05-15
 
