@@ -7,3 +7,6 @@ mesh.$memaccess('VertexPositions',ab => {
   console.log('you have float32 typed array',fa)
 })
 ```
+
+## See also
+- [[StaticMeshEdit]]
