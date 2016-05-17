@@ -1,6 +1,7 @@
 2016-05-17
 
 - Fixed a bug which was introduced during support for JS class inheritance.
+- [[StaticMeshEdit]]: Added support for StaticMesh creation.
 
 2016-05-15
 
