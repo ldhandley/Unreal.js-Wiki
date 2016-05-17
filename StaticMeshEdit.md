@@ -1,4 +1,4 @@
-* Requires WITH_EDITOR
+* Requires `WITH_EDITOR=1`
 
 ```js
 let mesh = StaticMesh.Load('/Game/Assets/Meshes/SM_Arch.SM_Arch')
