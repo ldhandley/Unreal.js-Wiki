@@ -13,3 +13,6 @@ newMesh.Build()
 newMesh.MarkPackageDirty()
 newMesh.BroadcastAssetCreated()
 ```
+
+## See also
+- [[Huge array fast access]]
