@@ -9,3 +9,17 @@ SomeNiceInstance.SomeNiceMulticastDelegates = [delegate-fn]
 ```js
 SomeNiceInstance.SomeNiceSinglecastDelegates = delegate-fn
 ```
+
+There is an another code path for delegate. `FJavascriptFunction` holds reference to javascript function. You can invoke JS function call within your C++ function.
+
+```cpp
+void UYourClass::YourMethod(FJavascriptFunction Function)
+{
+  YourMember.Delegate = Function;
+}
+
+void UYourClass::YourEventHandler()
+{
+  YourMember.Delegate.Execute(); // call JS function
+}
+```
