@@ -1,3 +1,7 @@
+2016-05-25
+
+- [[Modal-dialog-in-Editor]]: `SWindow` for modal/modeless dialog. 
+
 2016-05-24
 
 - V8 5.1.300
