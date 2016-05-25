@@ -2,12 +2,10 @@
 1. Create a new C++ project
 1. Open terminal
 ```
-# install v8
-brew install v8
-cd ~/Documents/Unreal\ Projects/<your project>
-
 # download plugin
-git clone https://github.com/ncsoft/Unreal.js-core Plugins/UnrealJS
+wget https://github.com/ncsoft/Unreal.js-core/releases/download/ready-to-build/Unreal.js-core.zip
+mkdir -p Plugins/UnrealJS
+unzip Unreal.js-core.zip -d 
 
 # build and run!
 open <your project>.uproject
