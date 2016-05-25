@@ -15,3 +15,4 @@
 ### UMG
 - [[Setting up base widget]]
 - [[UMG widgets]]
+- [[Modal dialog in Editor]]
