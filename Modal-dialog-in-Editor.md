@@ -1,4 +1,4 @@
-```
+```js
 let I = require('instantiator')
 let UMG = require('UMG')
 let design = UMG(JavascriptWindow, 
