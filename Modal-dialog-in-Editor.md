@@ -1,3 +1,5 @@
+With slate framework you can define your own modal/modeless window with just few lines of code!
+
 ```js
 let I = require('instantiator')
 let UMG = require('UMG')
