@@ -14,3 +14,5 @@ let actor = new ASomeSneakyActor(GWorld)
 UMyBlueprintFunctionLibrary.ReallyNiceFunction(actor, 1)
 actor.ReallyNiceFunction(1)
 ```
+
+[[Boring window extension]]
