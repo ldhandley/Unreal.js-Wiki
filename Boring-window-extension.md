@@ -1,5 +1,7 @@
 `extension-boring.js`
 
+[[Live editing boring extension]]
+
 ```js
 /// <reference path="typings/ue.d.ts" />
 "use strict"
