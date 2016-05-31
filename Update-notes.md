@@ -1,3 +1,7 @@
+2016-05-31
+
+- Switched to MIT License.
+
 2016-05-26
 
 - [Ractive.js](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/helloRactive.js) dynamic binding example added.
