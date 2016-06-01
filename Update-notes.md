@@ -1,3 +1,7 @@
+2016-06-02
+
+- Migrated to 4.12.
+
 2016-05-31
 
 - Switched to MIT License.
