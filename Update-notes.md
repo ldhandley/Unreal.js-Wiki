@@ -1,3 +1,7 @@
+2016-06-03
+
+- Added compatibility for 4.11.2
+
 2016-06-02
 
 - Migrated to 4.12.
