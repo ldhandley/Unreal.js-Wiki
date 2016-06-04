@@ -1,4 +1,4 @@
-2016-06-03
+2016-06-04
 
 - Added compatibility for 4.11.2
 
