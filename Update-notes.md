@@ -1,3 +1,8 @@
+2016-06-06
+
+- Added directory manipulation ops.
+- Added experimental package control. [source](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/extension-exampleWindow.js)
+
 2016-06-04
 
 - Added compatibility for 4.11.2
