@@ -21,4 +21,4 @@ You can inspect `my_debuggee` in your `JavascriptConsole`, which can be opened w
 
 ### Too slow?
 
-Please uncheck `Edit - Editor preferences - General - Etc - Use Less CPU when in Background` to make V8 debugger message pump busy!
+Please uncheck `Edit - Editor preferences - General - Etc - Use Less CPU when in Background` to keep V8 debugger message pump busy!
