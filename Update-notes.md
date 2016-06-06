@@ -1,3 +1,7 @@
+2016-06-07
+
+- Fixed a crash related to debugging.
+
 2016-06-06
 
 - Added directory manipulation ops.
