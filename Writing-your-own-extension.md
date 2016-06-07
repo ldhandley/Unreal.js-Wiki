@@ -16,3 +16,5 @@ actor.ReallyNiceFunction(1)
 ```
 
 [[Boring window extension]]
+
+[A serious example](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/extension-exampleWindow.js)
