@@ -57,4 +57,8 @@ UMG.div({
 ```
 
 As you can see, the widget parameters are given as a javascript object; then comes the child widgets.
-Most slate widget are available in UMG.js and will work just like in C++.
+
+You can find good GUI examples in [helloUMG.js](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/helloUMG.js), [extension-spiralGenerator.js](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/extension-spiralGenerator.js), and [exampleWindow.js](https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/extension-exampleWindow.js). 
+
+If you don't find the widget you need in the example, try translating C++ to UMG.js yourself. Most slate widget are available in UMG.js and will work just like in C++. 
+
