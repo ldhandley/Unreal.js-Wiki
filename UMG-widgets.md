@@ -57,3 +57,4 @@ UMG.div({
 ```
 
 As you can see, the widget parameters are given as a javascript object; then comes the child widgets.
+Most slate widget are available in UMG.js and will work just like in C++.
