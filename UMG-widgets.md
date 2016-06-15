@@ -1,3 +1,12 @@
+Assuming you are already familiar with `widget.SetRootWidget(page)`,
+```js
+UMG.text({},"Dummy text")
+UMG.div({}, UMG.text({}, "First"), UMG.text({}, "Second"))
+UMG.div({}, [1,2,3].map(item => UMG.text({}, `Item: ${item}`)))
+UMG.div({}, _ => Math.random() > 0.5 ? UMG.text({}, ">0.5") : UMG.text({}, "<0.5"))
+UMG.text({ColorAndOpacity:{SpecifiedColor:{R:1,A:1}}},"RED!")
+```
+
 [Slate in C++](https://docs.unrealengine.com/latest/INT/Programming/Slate/Widgets/) easily translates to UMG.js:
 
 ***C++***
@@ -48,12 +57,3 @@ UMG.div({
 ```
 
 As you can see, the widget parameters are given as a javascript object; then comes the child widgets.
-
-Assuming you are already familiar with `widget.SetRootWidget(page)`,
-```js
-UMG.text({},"Dummy text")
-UMG.div({}, UMG.text({}, "First"), UMG.text({}, "Second"))
-UMG.div({}, [1,2,3].map(item => UMG.text({}, `Item: ${item}`)))
-UMG.div({}, _ => Math.random() > 0.5 ? UMG.text({}, ">0.5") : UMG.text({}, "<0.5"))
-UMG.text({ColorAndOpacity:{SpecifiedColor:{R:1,A:1}}},"RED!")
-```
