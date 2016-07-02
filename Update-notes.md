@@ -1,3 +1,7 @@
+2016-07-02
+
+- V8 heapsnapshot dump by `memory.takeSnapshot(filename)`. See [[Heap profiling]]
+
 2016-06-07
 
 - Fixed a crash related to debugging.
