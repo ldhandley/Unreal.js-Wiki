@@ -7,3 +7,4 @@
 - [[StaticMeshEdit]]
 - [[Huge array fast access]]
 - [[Automated build]]
+- [[Heap profiling]]
