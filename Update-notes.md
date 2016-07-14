@@ -1,3 +1,7 @@
+2016-07-14
+
+- Smoother GC (supports IdleTask to enable hitch-aware GC)
+
 2016-07-02
 
 - V8 heapsnapshot dump by `memory.takeSnapshot(filename)`. See [[Heap profiling]]
