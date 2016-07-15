@@ -1,6 +1,6 @@
 - Clone or Download the [Examples](https://github.com/ncsoft/Unreal.js/tree/master/Examples) directory of the Unreal.js repository
 - Create the `Examples\Plugins\` directory
-- Copy the [[already built plugin content|Building the Plugin]] to the `Examples\Plugins\UnrealJS` directory
+- Copy the [[already built plugin content|Building the plugin]] to the `Examples\Plugins\UnrealJS` directory
 - Open the `Examples\JavascriptPlayground.uproject` file in the UE Editor
 - Load one of the example levels from the editor's Content Browser
 - Run the level in the editor to see Unreal.js in action
