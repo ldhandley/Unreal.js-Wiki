@@ -5,3 +5,15 @@
 - Load one of the example levels from the editor's Content Browser
 - Run the level in the editor to see Unreal.js in action
 - If something goes wrong while running the level you can probably get useful information in the Javascript Console (`Window > Developer Tools > Javascript Console`)
+
+
+***
+
+
+### Install additional Node.js dependencies
+- For the `helloSpringy.js` example you will need to install some external [Node.js](https://nodejs.org/en/) dependency packages
+- This is done by using the [npm](https://www.npmjs.com/) command line utility
+- Open the OS command prompt / shell and `cd` to the `Examples\Content\Scripts\` directory
+- Install the required dependencies by using the `npm install` command
+- The `node_modules` directory with the downloaded dependencies should be created
+- Now you can run the helloSpringy.js example
