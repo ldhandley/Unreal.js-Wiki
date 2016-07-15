@@ -15,5 +15,5 @@
 - This is done by using the [npm](https://www.npmjs.com/) command line utility
 - Open the OS command prompt / shell and `cd` to the `Examples\Content\Scripts\` directory
 - Install the required dependencies by using the `npm install` command
-- The `node_modules` directory with the downloaded dependencies should be created
-- Now you can run the helloSpringy.js example
+- The `node_modules` directory with the downloaded dependencies should have been created
+- You can then try out and run the helloSpringy.js example
