@@ -1,4 +1,4 @@
-- Make sure you have installed the [UnrealEngine 4.12.0 canonical build](https://www.unrealengine.com/dashboard).
+- Make sure you have installed the [UnrealEngine 4.12.? canonical build](https://www.unrealengine.com/dashboard).
 - Create a UE4 C++ project and close the editor after the project creation is finished
 - Clone the content of [Unreal.js-core](https://github.com/ncsoft/Unreal.js-core) into the `{ProjectRoot}\Plugins\UnrealJS` directory of the UE4 project directory
 - (or download the [ready to build Zip file](https://github.com/ncsoft/Unreal.js-core/releases/tag/ready-to-build) and extract it in the `{ProjectRoot}\Plugins\UnrealJS` directory)
