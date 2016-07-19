@@ -1,5 +1,6 @@
 2016-07-19
 
+- 'v8' module exposed, which has only one method `v8.setFlagsFromString`.
 - Bug fix: JavascriptActor can have JavascriptComponent subobjects.
 - FJavascriptFunction can be called outside normal javascript context.
 - FJavascriptStreamableManager exposed.
