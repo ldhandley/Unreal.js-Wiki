@@ -1,3 +1,9 @@
+2016-07-19
+
+- Bug fix: JavascriptActor can have JavascriptComponent subobjects.
+- FJavascriptFunction can be called outside normal javascript context.
+- FJavascriptStreamableManager exposed.
+
 2016-07-14
 
 - Smoother GC (supports IdleTask to enable hitch-aware GC)
