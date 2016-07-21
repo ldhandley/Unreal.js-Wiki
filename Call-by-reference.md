@@ -20,6 +20,6 @@ console.log(JSON.stringify(z),'pre')
 console.log(JSON.stringify(w),'result',w==z)
 console.log(JSON.stringify(z))
 // {"X":4,"Y":0,"Z":0} pre
-// {"X":3,"Y":0,"Z":0} result
+// {"X":3,"Y":0,"Z":0} result true
 // {"X":3,"Y":0,"Z":0}
 ```
