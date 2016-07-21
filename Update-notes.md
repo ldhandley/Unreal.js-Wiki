@@ -1,3 +1,9 @@
+2016-07-22
+
+- Experimental V8 5.3.332.19 (in V8-5.3.332.19 branch)
+- Call by ref(UStruct) [[Call by reference]]
+- Can specify return value(by ref) not to allocate temporary variables.
+
 2016-07-19
 
 - 'v8' module exposed, which has only one method `v8.setFlagsFromString`.
