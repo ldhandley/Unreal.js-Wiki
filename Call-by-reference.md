@@ -1,5 +1,7 @@
 ## Call by reference ##
 
+Not to allocate intermediate temporary variables, Unreal.js supports call-by-ref and ghost-return-target-value.
+
 ```js
 let isolate = Root.GetOuter().GetOuter()
 let stats = isolate.GetHeapStatistics().Statistics    
