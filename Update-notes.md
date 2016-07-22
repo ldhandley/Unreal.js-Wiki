@@ -1,6 +1,6 @@
 2016-07-23
 
-- UI Extender exposed. (Currently, `LevelEditor` is the only available end-point.)
+- UI Extender exposed. (Currently, `LevelEditor` is the only available end-point.) [Wiki](https://github.com/ncsoft/Unreal.js/wiki/Extending-editor-toolbar-menu-...)
 
 2016-07-22
 
