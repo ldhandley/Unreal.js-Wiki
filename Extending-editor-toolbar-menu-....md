@@ -1,10 +1,12 @@
 UNDER CONSTRUCTION
 
+save this file as `Content/Scripts/extension-some.js`
+
 ```js
+/// <reference path="typings/ue.d.ts" />
 "use strict"
 
-function main() {
-    let extender = new JavascriptExtender
+function main() {    
     let context = JavascriptMenuLibrary.NewBindingContext('MenuEx','Test menu','','EditorStyle');
     let commands = new JavascriptUICommands
     commands.BindingContext = context
@@ -19,20 +21,45 @@ function main() {
     let list = JavascriptMenuLibrary.CreateUICommandList()
     commands.Bind(list)
 
-    console.log("HELO")
+    commands.OnExecuteAction = (what) => {
+        console.log("Unreal.js !! :)")
+    }
 
-    extender.AddToolBarExtension('Content','After',list,builder => {
+    let toolbarExtender = new JavascriptExtender
+    toolbarExtender.AddToolBarExtension('Content','After',list,builder => {
         console.log('toolbar!!')
         builder.AddToolBarButton(commands.CommandInfos[0])
     })
-    let manager = JavascriptEditorLibrary.GetToolBarExtensibilityManager('LevelEditor') 
-    manager.AddExtender(extender)
+    let menuExtender = new JavascriptExtender
+    menuExtender.AddMenubarExtension('Help','After',list,builder => {
+        console.log('menubar!')
+        builder.AddPullDownMenu("Unreal.js","Example Menu Tooltip",builder => {
+            builder.AddToolBarButton(commands.CommandInfos[0])
+            console.log('menu!')
+        })
+    })
+    let toolbarManager = JavascriptEditorLibrary.GetToolBarExtensibilityManager('LevelEditor')
+    let menuManager = JavascriptEditorLibrary.GetMenuExtensibilityManager('LevelEditor') 
+    toolbarManager.AddExtender(toolbarExtender)
+    menuManager.AddExtender(menuExtender)
     return function () {
-        manager.RemoveExtender(extender)        
+        toolbarManager.RemoveExtender(toolbarExtender)
+        menuManager.RemoveExtender(menuExtender)        
         commands.Uninitialize()
         context.Destroy()
     }
 }
 
-main()
+if (!global.$ext) {
+    global.$ext = true
+    let old = global["$exit"]
+    let bye = main()
+    global["$exit"] = function () {
+        bye()
+        old()
+    }
+}
+
+module.exports = function () {    
+}
 ```
