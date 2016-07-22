@@ -1,3 +1,7 @@
+2016-07-23
+
+- UI Extender exposed. (Currently, `LevelEditor` is the only available end-point.)
+
 2016-07-22
 
 - Experimental V8 5.3.332.19 (in V8-5.3.332.19 branch)
