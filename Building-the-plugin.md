@@ -4,6 +4,7 @@
 ```
 cd {ProjectRoot}
 git clone https://github.com/ncsoft/Unreal.js-core Plugins/UnrealJS
+cd Plugins/UnrealJS
 ```
 - For Windows,
   * Run `install-v8-libs.bat` in Git CMD
