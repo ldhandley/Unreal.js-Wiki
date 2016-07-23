@@ -1,8 +1,11 @@
 - Make sure you have installed the [UnrealEngine 4.12.? canonical build](https://www.unrealengine.com/dashboard).
 - Create a UE4 C++ project and close the editor after the project creation is finished
 - Clone the content of [Unreal.js-core](https://github.com/ncsoft/Unreal.js-core) into the `{ProjectRoot}\Plugins\UnrealJS` directory of the UE4 project directory
-- (or download the [ready to build Zip file](https://github.com/ncsoft/Unreal.js-core/releases/tag/ready-to-build) and extract it in the `{ProjectRoot}\Plugins\UnrealJS` directory)
-- Download the [V8 prebuilt binaries](https://github.com/ncsoft/Unreal.js-core/releases/tag/v8-5.1.300-win64) or [build them yourself](https://github.com/ncsoft/Unreal.js/wiki/V8) and put them in the `{ProjectRoot}\Plugins\UnrealJS\ThirdParty\v8\lib\Win64\Release` directory
+- For Windows,
+  * Run `install-v8-libs.bat` in Git CMD
+  * Or run `install-v8-libs.sh` in Git bash
+- For other platforms,
+  * Run `install-v8-libs.sh`
 - Now open the C++ `.uproject` again in the UE editor
 - Once the UE Editor opens the project it should ask if you want to rebuild the plugin modules, click `Yes` to start the C++ build
 - The compilation of the Unreal.js plugin should go through and you end up with a compiled version of the plugin in the `{ProjectRoot}\Plugins\UnrealJS` directory
