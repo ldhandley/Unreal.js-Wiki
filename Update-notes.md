@@ -1,5 +1,6 @@
 2016-07-23
 
+- Shell scripts added for easy installation of v8 libraries. `install-v8-libs.sh`, `install-v8-libs.bat`.
 - UI Extender exposed. (Currently, `LevelEditor` is the only available end-point.) [Wiki](https://github.com/ncsoft/Unreal.js/wiki/Extending-editor-toolbar-menu-...)
 
 2016-07-22
