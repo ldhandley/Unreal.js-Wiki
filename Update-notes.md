@@ -1,3 +1,8 @@
+2016-07-27
+
+- Uncaught exceptions are routed to `global.$uncaughtException`.
+- VS2015 Update 2 compilation issue resolved.
+
 2016-07-23
 
 - Shell scripts added for easy installation of v8 libraries. `install-v8-libs.sh`, `install-v8-libs.bat`.
