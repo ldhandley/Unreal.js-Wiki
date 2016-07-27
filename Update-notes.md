@@ -1,3 +1,8 @@
+2016-07-28
+
+- JavascriptCommandlet added. 
+ `UE4Editor.exe <your-project> -run=Javascript commandlet.js`
+
 2016-07-27
 
 - Uncaught exceptions are routed to `global.$uncaughtException`.
