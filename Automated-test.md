@@ -2,7 +2,8 @@
 * Add some `test-xxx.js` on your `Content/Scripts/tests` to register automated test suite.
 
 ```
-describe('Javascript_Test1', {TestFlags : 0x02000000 | 0x00000001 | 0x00000002}, function () {
+const ops = {TestFlags : 0x02000000 | 0x00000001 | 0x00000002}
+describe('Javascript_Test1', opts, function () {
     before(function () {
         console.log('before test1')
     })
@@ -16,7 +17,7 @@ describe('Javascript_Test1', {TestFlags : 0x02000000 | 0x00000001 | 0x00000002},
         before(function () {
             console.log('before inner')
         }) 
-        it('handle time out properly', function (done) {
+        it('should handle time out properly', function (done) {
             setTimeout(function () {
                 done()
             },500)            
