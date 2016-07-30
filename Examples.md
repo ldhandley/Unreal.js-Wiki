@@ -9,3 +9,5 @@
 - [[Creating a custom-draw UMG widget]]
 - [[Custom console window]]
 - [[Web socket]]
+- [[Commandlet]]
+- [[Automated test]]
