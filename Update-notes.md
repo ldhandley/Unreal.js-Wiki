@@ -1,11 +1,11 @@
 2016-07-29
 
-- JavascriptAutomatedTest added.
+- JavascriptAutomatedTest added. [[Automated test]]
 - Package find, load, save, delete added.
 
 2016-07-28
 
-- JavascriptCommandlet added. 
+- JavascriptCommandlet added. [[Commandlet]]
   * `UE4Editor.exe <your-project> -run=Javascript commandlet.js`
 
 2016-07-27
