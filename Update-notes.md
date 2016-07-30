@@ -1,3 +1,8 @@
+2016-07-29
+
+- JavascriptAutomatedTest added.
+- Package find, load, save, delete added.
+
 2016-07-28
 
 - JavascriptCommandlet added. 
