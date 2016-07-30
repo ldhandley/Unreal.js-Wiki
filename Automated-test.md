@@ -1,7 +1,7 @@
 * See also https://github.com/ncsoft/Unreal.js/blob/master/Examples/Content/Scripts/extension-test.js
 * Add some `test-xxx.js` on your `Content/Scripts/tests` to register automated test suite.
 
-```
+```js
 const ops = {TestFlags : 0x02000000 | 0x00000001 | 0x00000002}
 describe('Javascript_Test1', opts, function () {
     before(function () {
