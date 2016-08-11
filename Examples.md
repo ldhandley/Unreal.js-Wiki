@@ -11,3 +11,4 @@
 - [[Web socket]]
 - [[Commandlet]]
 - [[Automated test]]
+- [[Making a console command]]
