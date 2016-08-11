@@ -1,3 +1,17 @@
+- Make sure you have `git-lfs` installed.
+- Clone this repository and download external dependencies.
+```sh
+git clone https://github.com/ncsoft/Unreal.js
+cd Unreal.js
+git submodule update --init
+cd Examples/Plugins/UnrealJS
+install-v8-libs.bat (for windows)
+./install-v8-libs.sh (for other platforms)
+```
+- Open `JavascriptPlayground.uproject` and click to rebuild.
+
+***
+
 - Clone or Download the [Examples](https://github.com/ncsoft/Unreal.js/tree/master/Examples) directory of the Unreal.js repository
 - Create the `Examples\Plugins\` directory
 - Copy the [[already built plugin content|Building the plugin]] to the `Examples\Plugins\UnrealJS` directory
