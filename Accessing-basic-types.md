@@ -15,4 +15,4 @@ console.log(ENavDataGatheringMode.map((x) => `Enums! ${x}`))
 
 **Note**: many useful enums are already available in Unreal.js. 
 
-There are no clever way to add other UE enums: Grab code and paste it guarded with UENUM (for example: [EJavascriptWidgetMode](https://github.com/ncsoft/Unreal.js-core/blob/master/Source/JavascriptEditor/JavascriptEditorLibrary.h#L8)).
+There is no clever way to add other UE enums: Grab code and paste it guarded with UENUM (for example: [EJavascriptWidgetMode](https://github.com/ncsoft/Unreal.js-core/blob/master/Source/JavascriptEditor/JavascriptEditorLibrary.h#L8)).
