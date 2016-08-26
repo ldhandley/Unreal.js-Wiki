@@ -1,4 +1,4 @@
-```
+```js
 let UMG = require('UMG')
 let instantiator = require('instantiator')
 
