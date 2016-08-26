@@ -10,7 +10,7 @@ UMG.text({ColorAndOpacity:{SpecifiedColor:{R:1,A:1}}},"RED!")
 [Slate in C++](https://docs.unrealengine.com/latest/INT/Programming/Slate/Widgets/) easily translates to UMG.js:
 
 ***C++***
-```
+```cpp
 [...]
 ChildSlot
 [
