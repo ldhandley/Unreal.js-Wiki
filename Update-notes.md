@@ -1,3 +1,7 @@
+2016-08-31
+
+- Missing [[UPROPERTY]] decorators added.
+
 2016-07-29
 
 - JavascriptAutomatedTest added. [[Automated test]]
