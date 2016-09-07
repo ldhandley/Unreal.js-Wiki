@@ -1,3 +1,7 @@
+2016-09-07
+
+- Fixed GC crash. (4.13)
+
 2016-08-31
 
 - Missing [[UPROPERTY]] decorators added.
