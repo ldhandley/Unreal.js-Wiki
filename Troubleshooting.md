@@ -1,1 +1,2 @@
 - [[require(...) is not a function]]
+- [[Strange behavior of dynamic array]]
