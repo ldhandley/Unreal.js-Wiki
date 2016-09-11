@@ -45,3 +45,8 @@ let myActor = new myTimeActor_C(GWorld, Vector.MakeVector(0, 0, 10))
 Context.RunFile('aliases.js')
 
 ```
+
+Alternative way to create a timer in node.js/browser like way,
+```js
+setInterval( () => { console.log('hello') }, 1000 )
+```
