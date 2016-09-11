@@ -46,7 +46,7 @@ Context.RunFile('aliases.js')
 
 ```
 
-Alternative way to create a timer in node.js/browser like way,
+Alternative way to create a node.js/browser like timer,
 ```js
 setInterval( () => { console.log('hello') }, 1000 )
 ```
