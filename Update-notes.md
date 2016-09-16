@@ -1,3 +1,8 @@
+2016-09-17
+
+- Merged PR from [@arthursw](https://github.com/arthursw)
+ - Added bindings to JavascriptEditorViewport 
+
 2016-09-07
 
 - Fixed GC crash. (4.13)
