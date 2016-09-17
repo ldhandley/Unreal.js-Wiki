@@ -2,6 +2,7 @@
 
 - Merged PR from [@arthursw](https://github.com/arthursw)
  - Added bindings to JavascriptEditorViewport 
+- Added new branch(V8-5.5.225).
 
 2016-09-07
 
