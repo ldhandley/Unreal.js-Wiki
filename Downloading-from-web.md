@@ -1,8 +1,8 @@
 ```js
-let req = new JavascriptRequest()
+let req = new JavascriptHttpRequest()
 req.SetVerb("GET")
 req.SetURL("http://.....zip")
-req.OnComplete = (successful) => {
+req.OnComplete.Add( (successful) => {
   if (successful) {
     let len = req.GetContentLength()
     let ab = new ArrayBuffer(len)
@@ -15,9 +15,9 @@ req.OnComplete = (successful) => {
     // we're done
     memory.unbind(ab)
   }
-}
-req.OnProgress = (sent,recv) => {
+})
+req.OnProgress.Add( (sent,recv) => {
   console.log(`sent ${sent} recv ${recv}`)
-}
+})
 req.ProcessRequest()
 ```
