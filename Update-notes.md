@@ -1,6 +1,6 @@
 2016-10-26
 
-- Upgrade V8 to 5.6.140(Chrome canary).
+- Updated V8 to 5.6.140(Chrome canary).
 - Switched to static v8 libraries for MacOS.
 
 2016-09-17
