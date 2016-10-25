@@ -1,3 +1,7 @@
+2016-10-26
+
+- Upgrade V8 to 5.6.140(Chrome canary).
+
 2016-09-17
 
 - Merged PR from [@arthursw](https://github.com/arthursw)
