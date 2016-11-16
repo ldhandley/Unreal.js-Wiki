@@ -1,3 +1,9 @@
+2016-11-17
+
+- Updated to support 4.14.
+- Switched back to 5.5-lkgr.
+- Removed JavascriptWebSocket.
+
 2016-10-26
 
 - Updated V8 to 5.6.140(Chrome canary).
