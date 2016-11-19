@@ -1,3 +1,7 @@
+2016-11-19
+
+- Added naive support for Map/Set property.
+
 2016-11-17
 
 - Updated to support 4.14.
