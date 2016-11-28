@@ -1,3 +1,7 @@
+2016-11-28
+
+- Added stats. (STAT_xxx)
+
 2016-11-19
 
 - Added naive support for Map/Set property.
