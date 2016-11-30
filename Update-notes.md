@@ -1,3 +1,8 @@
+2016-11-30
+
+- Added `FJavascriptRef` which contains reference to Javascript object, so you can safely keep reference to js-object.
+
+
 2016-11-28
 
 - Added stats. (STAT_xxx)
