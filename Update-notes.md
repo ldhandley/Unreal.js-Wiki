@@ -1,7 +1,10 @@
+2016-12-03
+
+- Made use of function parameter default value specified in C++.
+
 2016-11-30
 
 - Added `FJavascriptRef` which contains reference to Javascript object, so you can safely keep reference to js-object.
-
 
 2016-11-28
 
