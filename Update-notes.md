@@ -1,3 +1,7 @@
+2016-12-05
+
+- V8 inspector. (https://github.com/ncsoft/Unreal.js-core/tree/v8inspector)
+
 2016-12-03
 
 - Made use of function parameter default value specified in C++.
