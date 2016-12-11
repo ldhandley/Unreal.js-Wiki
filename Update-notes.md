@@ -1,11 +1,11 @@
 2016-12-12
 
 - V8 5.7.201. 
-- Fix inspector for Mac, which has 4-bytes TCHAR!
+- Fix [[inspector | V8 inspector]] for Mac, which has 4-bytes TCHAR!
 
 2016-12-05
 
-- V8 inspector. (https://github.com/ncsoft/Unreal.js-core/tree/v8inspector)
+- [[V8 inspector]]. (https://github.com/ncsoft/Unreal.js-core/tree/v8inspector)
 
 2016-12-03
 
