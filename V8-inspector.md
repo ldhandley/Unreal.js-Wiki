@@ -1,7 +1,7 @@
 # Using chrome inspector
 
 ```js
-{source files here aren't visible to inspector}
+{source files here are not visible to inspector}
 
 Context.CreateInspector(9229) // open websocket on port 9229
 
