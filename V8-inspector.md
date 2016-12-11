@@ -1,7 +1,11 @@
 # Using chrome inspector
 
 ```js
+{source files here aren't visible to inspector}
+
 Context.CreateInspector(9229) // open websocket on port 9229
+
+{your code here}
 ```
 
 Open [Chrome Canary](https://www.google.co.kr/chrome/browser/canary.html) and browse to `chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=localhost:9229`
