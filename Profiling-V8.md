@@ -1,3 +1,9 @@
+# Simple way to profile your javascript app
+
+Go to [[V8 inspector]]
+
+----
+
 * For serious V8 profiling, add '--prof' to V8 flags in 'Editor - Project Settings - Plugins - UnrealJS - V8 Flags' and restart engine. After shutting down JavascriptIsolate, 'isolate-*-v8.log' will be dumped in 'Engine/Binaries/Win64/...' folder.
 1. clone `v8` 
 2. `npm i -g http-server`
