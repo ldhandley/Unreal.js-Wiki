@@ -1,3 +1,11 @@
+2016-12-24
+
+- Chrome Inspector is now available for non editor build.
+
+2016-12-23
+
+- Add graph editor library. 
+
 2016-12-12
 
 - V8 5.7.201. 
