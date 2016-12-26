@@ -16,4 +16,4 @@ Non native project which doesn't have a single c++ class cannot be baked with ga
 
 ## Packaging
 
-Not to lose your Content/Scripts folder, please add your Content/Scripts to Package Settings - Additional Non-Asset Directories to Cook
+Not to lose your Content/Scripts folder, please add your Content/Scripts to `Package Settings - Additional Non-Asset Directories to Copy`
