@@ -1,3 +1,7 @@
+2017-02-17
+
+- Updated to support 4.15.
+
 2016-12-24
 
 - Chrome Inspector is now available for non editor build.
