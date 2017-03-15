@@ -24,7 +24,7 @@ new MySMA_C(GWorld,{Z:100})
 
 **Note**: you can use `process.nextTick(tick)` instead of the `Actor::Tick()` event:
 
-```
+```js
 function tick() {
     // do something every tick
     // reschedule it
