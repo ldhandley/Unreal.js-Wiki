@@ -1,3 +1,7 @@
+2017-04-05
+
+- UEnumProperty (4.15)
+
 2017-02-17
 
 - Updated to support 4.15.
