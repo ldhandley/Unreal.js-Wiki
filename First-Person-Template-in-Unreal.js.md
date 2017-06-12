@@ -4,14 +4,14 @@ I'll include the code below. I have a small post on Unreal forum with pictures h
 
 **zFirstPerson.js**
 
-```java
+```javascript
 /// <reference path="typings/ue.d.ts">/>
 
 /*
  *  Author: Kiet Khong
  *  Version: UE4 style programming, 
  *  License: MIT, no warranty
- *  Description: This java file is to implement FirstPerson Character similar to the engine game template.  
+ *  Description: This JavaScript file is to implement FirstPerson Character similar to the engine game template.  
  *  Implement Details: Require assets from FirstPerson Blueprint templates
  * 
  * 
@@ -23,7 +23,7 @@ I'll include the code below. I have a small post on Unreal forum with pictures h
 
 (function (global) 
 {
-    //Disable some unsafe java programming practices. 
+    //Disable some unsafe JavaScript programming practices. 
     //More info at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
     "use strict"
 
@@ -268,7 +268,7 @@ I'll include the code below. I have a small post on Unreal forum with pictures h
     }
 
     // 1) bootstrap to initiate live-reloading dev env. 
-    // 2) load required java files for normal operation
+    // 2) load required JavaScript files for normal operation
     // 3) run initial code in hotReload_Init
     // 4) REQUIRE bootstrap.js
     try 
@@ -286,7 +286,7 @@ I'll include the code below. I have a small post on Unreal forum with pictures h
     }
     catch (e) 
     {
-        //if try code failed then load required java files
+        //if try code failed then load required JavaScript files
         require('bootstrap')('zFirstPerson')
     }
 
