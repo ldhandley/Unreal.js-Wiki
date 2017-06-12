@@ -12,7 +12,7 @@ I'll include the code below.  I have a small post on Unreal forum with pictures 
  *  Author: Kiet Khong
  *  Version: UE4 style programming, 
  *  License: MIT, no warranty
- *  Description: This java file is to implement ThirdPerson Character similar to the engine game template.  
+ *  Description: This JavaScript file is to implement ThirdPerson Character similar to the engine game template.  
  *  Implement Details: 
  * 
  * 
@@ -24,7 +24,7 @@ I'll include the code below.  I have a small post on Unreal forum with pictures 
 
 (function (global) 
 {
-    //Disable some unsafe java programming practices. 
+    //Disable some unsafe JavaScript programming practices. 
     //More info at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
     "use strict"
 
@@ -79,8 +79,8 @@ I'll include the code below.  I have a small post on Unreal forum with pictures 
             //assign camera to properties variable 'myCamera'
             this.myCamera = tempCamera                                   
             
-            //We can load asset directly into Java.  Can be positive or negative depend on your style
-            //Load skeletal mesh and animation blueprint from ThirdPerson sample into java
+            //We can load asset directly into JavaScript.  Can be positive or negative depend on your style
+            //Load skeletal mesh and animation blueprint from ThirdPerson sample into JavaScript
             //Require assets from ThirdPerson template either Blueprint or C++ will do
             let SK_mesh = SkeletalMesh.Load('/Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin')
             let ANI_AnimationBP = AnimBlueprint.Load('/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP').GeneratedClass
@@ -229,7 +229,7 @@ I'll include the code below.  I have a small post on Unreal forum with pictures 
     }
 
     // 1) bootstrap to initiate live-reloading dev env. 
-    // 2) load required java files for normal operation
+    // 2) load required JavaScript files for normal operation
     // 3) run initial code in hotReload_Init
     // 4) REQUIRE bootstrap.js
     try 
@@ -247,7 +247,7 @@ I'll include the code below.  I have a small post on Unreal forum with pictures 
     }
     catch (e) 
     {
-        //if try code failed then load required java files
+        //if try code failed then load required JavaScript files
         require('bootstrap')('zThirdPerson')
     }
 })(this)
