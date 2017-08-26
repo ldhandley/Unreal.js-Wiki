@@ -1,3 +1,9 @@
+2017-04-30
+- V8-6.1.534 (Win64, Mac, Linux)
+
+2017-8-17
+- Update to support 4.17.
+
 2017-05-28
 - Updated to support 4.16. 
 
