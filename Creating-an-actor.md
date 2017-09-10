@@ -13,7 +13,7 @@ setTimeout(kill,1000)
 ```js
 const uclass = require('uclass')().bind(this,global)
 class MySMA extends StaticMeshActor {
-  Actor() {
+  ctor() {
     this.StaticMeshComponent.SetStaticMesh(StaticMesh.Load('/Engine/BasicShapes/Cube.Cube'))
   }
 }      
