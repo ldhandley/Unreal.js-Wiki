@@ -1,4 +1,7 @@
-2017-09.08
+2017-09-13
+- Temporary downgrade v8 version (6.1 -> 5.9) (Builtin Console Issue)
+
+2017-09-08
 - Updated to support 4.16, 4.17 (Marketplace)
 
 2017-08-26
