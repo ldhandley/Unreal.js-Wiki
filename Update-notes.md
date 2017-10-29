@@ -1,3 +1,6 @@
+2017-10-30
+- Updated to support 4.18.
+
 2017-09-13
 - Temporary downgrade v8 version (6.1 -> 5.9) (Builtin Console Issue)
 
