@@ -14,19 +14,19 @@ request('GET',url,{res:'string'}).then(result => {
 GET
 ```js
 request('GET', 'url').then(res => {
-            console.log(JSON.stringify(res, null, 2)); 
-        });
+    console.log(JSON.stringify(res, null, 2)); 
+});
 ```
 
 POST
 ```js
 request('POST', 'url', {
-            data: {
-                'here_data': true
-            }
-        }).then(res => {
-            console.log(JSON.stringify(res, null, 2)); 
+    data: {
+        'here_data': true
+    }
+    }).then(res => {
+        console.log(JSON.stringify(res, null, 2)); 
 
-            return;
-        });
+        return;
+});
 ```
