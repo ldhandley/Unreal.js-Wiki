@@ -10,3 +10,23 @@ request('GET',url,{res:'string'}).then(result => {
     console.log('just grabbed text from web',text)
 }) 
 ```
+
+GET
+```js
+request('GET', 'url').then(res => {
+            console.log(JSON.stringify(res, null, 2)); 
+        });
+```
+
+POST
+```js
+request('POST', 'url', {
+            data: {
+                'here_data': true
+            }
+        }).then(res => {
+            console.log(JSON.stringify(res, null, 2)); 
+
+            return;
+        });
+```
