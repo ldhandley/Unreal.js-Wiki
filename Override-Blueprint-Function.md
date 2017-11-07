@@ -35,3 +35,13 @@ catch (e) {
     require('bootstrap')('BP_Function_Override'); // replace "BP_Function_Override" with the js file name
 }
 ```
+
+to return a value, that was defined in the Blueprint Editor:
+```js
+Function_To_Override() {
+
+        return {
+            var_name_from_BP_here: 'value you want to'
+        };
+    }
+```
