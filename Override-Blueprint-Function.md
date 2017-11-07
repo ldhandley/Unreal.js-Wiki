@@ -45,3 +45,5 @@ Function_To_Override() {
         };
     }
 ```
+
+- return does somehow not function when returning in an async function (like in a callback from `request`)
