@@ -1,7 +1,7 @@
 2018-03-21
 - Update to support 4.19
 - V8-6.5.254 (Win64, Mac, Linux)
-
+  - Starting with V8 6.1, the Console is built in and provides faster logging. However, because it is not logging through a Global Object created in Unreal.js, a single Isolate does not provide more than one Logger. **So you can not log Inspector and Editor at the same time.**
 2017-10-30
 - Updated to support 4.18.
 
