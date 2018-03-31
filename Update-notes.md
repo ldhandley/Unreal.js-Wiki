@@ -1,3 +1,7 @@
+2018-03-31
+- Fix for Property Name Issue (FName)
+  - https://github.com/ncsoft/Unreal.js/wiki/Access-Property
+
 2018-03-21
 - Update to support 4.19
 - V8-6.5.254 (Win64, Mac, Linux)
