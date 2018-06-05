@@ -1,5 +1,6 @@
 - [[Autocompletion]]
 - [[Visual Studio Code]]
+- [[Sublime Text 3]]
 - [[Live reload]]
 - [[Javascript Console]]
 - [[Debugging]]
