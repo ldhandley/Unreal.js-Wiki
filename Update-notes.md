@@ -1,3 +1,9 @@
+2018-12-04
+ - Update to support 4.21
+
+2018-08-30
+ - Update to support 4.20
+
 2018-03-31
 - Fix for Property Name Issue (FName)
   - https://github.com/ncsoft/Unreal.js/wiki/Access-Property
