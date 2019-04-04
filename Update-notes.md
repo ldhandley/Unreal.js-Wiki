@@ -1,7 +1,7 @@
 2019-04-04
  - Update to support 4.22
   - modified v8 library (Need to download a new v8 library)
-   - unreal.js uses the UnrealEngine allocator, and changes to the TBB implementation required modifications to v8
+   - unreal.js uses the UnrealEngine allocator, and due to changes in the implementation of TBB, v8 had to be fixed.
 
 2018-12-04
  - Update to support 4.21
