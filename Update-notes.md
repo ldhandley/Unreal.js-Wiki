@@ -1,3 +1,6 @@
+2019-09-07
+ - Update to support 4.23
+
 2019-05-03
  - V8-7.4.288 (Win64, Mac, Linux, Android, iOS)
    - Jit-less V8 (Support iOS)
