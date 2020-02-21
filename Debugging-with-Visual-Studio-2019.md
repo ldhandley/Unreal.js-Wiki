@@ -5,7 +5,7 @@
  - Set `Connection Type` to `Chrome devtools protocol websocket (no authentication)`
  - Connection target: `ws://localhost[:{port}]` :{port} is optional if CreateInspector was set to 9222
  - Click `Refresh`
- - Set `Attach To`: to `JavasScript (Node.js 8+) code
+ - Set `Attach To`: `JavasScript (Node.js 8+) code`
  - Select the `Webkit instance -` process
  - Click `Attach`
 3. Set a breakpoint in your script
