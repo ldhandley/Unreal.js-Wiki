@@ -5,6 +5,7 @@ Then, launch a remote debug remote session in Visual Studio Code by connecting `
 
 - [[Debugging with Visual Studio Code]]
 - [[Debugging with Visual Studio 2015]]
+- [[Debugging with Visual Studio 2019]]
 
 You can also debug your application in UE4Editor. Within `JavascriptConsole` you can freely evaluate your global scope variables, so just expose your debuggee variable into global scope like below.
 
