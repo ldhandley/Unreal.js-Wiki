@@ -1,5 +1,5 @@
 ### Easy installation
-`` Unreal.js is now on the Unreal Engine MarketPlace. If you have installed Unreal Engine from Epic Games Launcher, you can grab Unreal.js from the MarketPlace. ```
+Unreal.js is now on the Unreal Engine MarketPlace. If you have installed Unreal Engine from Epic Games Launcher, you can grab Unreal.js from the MarketPlace.
 
 ### Build process
 - Make sure you have installed the [UnrealEngine 4.13.? canonical build](https://www.unrealengine.com/dashboard).
