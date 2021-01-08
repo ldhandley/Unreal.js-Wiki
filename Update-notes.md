@@ -1,3 +1,6 @@
+2021-01-08
+ - Update to support 4.26
+
 2020-05-14
  - Update to support 4.25
 
