@@ -1,1 +1,0 @@
-This Wiki is created by Swapnil_Kothawade for POC Purpose only.
